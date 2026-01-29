@@ -1,0 +1,19 @@
+// Set your Apple Developer Team ID here, e.g. ABCDE12345
+TEAM_ID=GSC2X2SWBF
+
+PRODUCT_NAME=Echo
+// Use a valid reverse-DNS bundle identifier. Do not append TEAM_ID here.
+// Use a valid reverse-DNS bundle identifier. Do not append TEAM_ID here.
+PRODUCT_BUNDLE_IDENTIFIER_Debug = com.bhanit.app.echo.debug
+PRODUCT_BUNDLE_IDENTIFIER_Release = com.bhanit.app.echo
+PRODUCT_BUNDLE_IDENTIFIER = $(PRODUCT_BUNDLE_IDENTIFIER_$(CONFIGURATION))
+
+// Ensure Xcode knows your development team from TEAM_ID
+DEVELOPMENT_TEAM=$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=14
+MARKETING_VERSION=0.0.14
+
+APP_DISPLAY_NAME_Debug = EchoTest
+APP_DISPLAY_NAME_Release = Echo
+APP_DISPLAY_NAME = $(APP_DISPLAY_NAME_$(CONFIGURATION))

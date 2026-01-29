@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls",
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bhanit.apps.echo",
+            "sha256_cert_fingerprints": [
+                "73:1D:04:10:C3:05:81:36:3E:58:53:F3:B2:4E:EC:A7:E4:CF:D1:F6:56:6E:C7:7C:0E:B2:C0:E2:C7:12:04:B0"
+            ]
+        }
+    }
+]

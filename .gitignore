@@ -1,0 +1,48 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Gradle / Build
+.gradle/
+build/
+**/build/
+!src/main/resources/build
+gradle-app.setting
+!gradle-wrapper.jar
+.kotlin/
+
+# Node / JS
+node_modules/
+npm-debug.log
+yarn-error.log
+.npmrc
+
+# Secrets / Environment
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.keystore
+*.jks
+server/baileys_service/auth_info_baileys/
+
+# Database
+*.db
+*.h2.db
+*.mv.db
+server/echo_db.mv.db
+server/echo_db.trace.db
+
+# iOS
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+Pods/
+DerivedData/
+
+# Specific project files
+server/baileys_service/auth_info_baileys

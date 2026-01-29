@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "GSC2X2SWBF.com.bhanit.app.echo",
+                "paths": [
+                    "/invite",
+                    "/invite/*",
+                    "/r/*"
+                ]
+            }
+        ]
+    }
+}
